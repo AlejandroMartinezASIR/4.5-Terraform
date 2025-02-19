@@ -1,7 +1,7 @@
 # Terraform_AWS
 Este repositorio es para realizar y explicar la estructura de Terraform para el despliegue de las instancias de AWS
 
-- En está practica tendremos que realizar un script pero con una estructura de [*_Terraform_*](https://www.terraform.io) para implementar la estructura de las máquinas que utilizamos en la [Práctica 1.11 de IAW](https://github.com/kinoibanez/Practica01-11IAW) del trimestre pasado.
+- En está practica tendremos que realizar un script pero con una estructura de [*_Terraform_*](https://www.terraform.io) para implementar la estructura de las máquinas que utilizamos en la Práctica 1.11 de IAW del trimestre pasado.
 
 
 # ¿ Qué es Terraform ?
