@@ -121,5 +121,4 @@ Este repositorio es para realizar y explicar la estructura de Terraform para el 
 
     El segundo bloque nos permite que una vez hayamos lanzado el `terraform apply` y haga todo correctamente, podremos ver que ips se han asociado con que máquina.
 
-  ![comprobacion](![image](https://github.com/user-attachments/assets/cc64a5ee-a09d-47a3-9c83-372a1d87fb08)
-)
+  ![comprobacion](images/Captura%20de%20pantalla%202025-02-24%20122628.png)
