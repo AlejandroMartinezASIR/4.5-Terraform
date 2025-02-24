@@ -120,3 +120,6 @@ Este repositorio es para realizar y explicar la estructura de Terraform para el 
 - El primer bloque del script nos permite crear una ip elástica a través de `aws` gracias al uso de `aws_eip` como *_resource_*. Al declararle un nombre de instancía en este caso `FrontEnd` automáticamente hará la acciónd de asociarse con la instancia que anteriormente creemos y se llame así.
 
     El segundo bloque nos permite que una vez hayamos lanzado el `terraform apply` y haga todo correctamente, podremos ver que ips se han asociado con que máquina.
+
+  ![comprobacion](![image](https://github.com/user-attachments/assets/cc64a5ee-a09d-47a3-9c83-372a1d87fb08)
+)
