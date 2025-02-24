@@ -35,7 +35,7 @@ resource "aws_security_group" "FrontEnd" {
 
 # Creamos una instancia EC2 solamente para el FrontEnd
 resource "aws_instance" "FrontEnd" {
-  ami             = "ami-0c7217cdde317cfec"
+  ami             = "ami-04b4f1a9cf54c11d0"
   instance_type   = "t2.medium"
   key_name        = "vockey"
   security_groups = [aws_security_group.FrontEnd.name]
@@ -92,7 +92,7 @@ resource "aws_security_group" "FrontEnd2" {
 
 # Creamos una instancia EC2 solamente para el FrontEnd2
 resource "aws_instance" "FrontEnd2" {
-  ami             = "ami-0c7217cdde317cfec"
+  ami             = "ami-04b4f1a9cf54c11d0"
   instance_type   = "t2.medium"
   key_name        = "vockey"
   security_groups = [aws_security_group.FrontEnd2.name]
@@ -148,7 +148,7 @@ resource "aws_security_group" "BackEnd" {
 }
 # Creamos una instancia EC2 solamente para el backend 
 resource "aws_instance" "BackEnd" {
-  ami             = "ami-0c7217cdde317cfec"
+  ami             = "ami-04b4f1a9cf54c11d0"
   instance_type   = "t2.small"
   key_name        = "vockey"
   security_groups = [aws_security_group.BackEnd.name]
@@ -214,7 +214,7 @@ resource "aws_security_group" "LoadBalancer" {
 
 # Creamos una instancia EC2 solamente para el LoadBalancer 
 resource "aws_instance" "LoadBalancer" {
-  ami             = "ami-0c7217cdde317cfec"
+  ami             = "ami-04b4f1a9cf54c11d0"
   instance_type   = "t2.small"
   key_name        = "vockey"
   security_groups = [aws_security_group.LoadBalancer.name]
@@ -281,7 +281,7 @@ resource "aws_security_group" "NFS" {
 
 # Creamos una instancia EC2 solamente para el NFS 
 resource "aws_instance" "NFS" {
-  ami             = "ami-0c7217cdde317cfec"
+  ami             = "ami-04b4f1a9cf54c11d0"
   instance_type   = "t2.small"
   key_name        = "vockey"
   security_groups = [aws_security_group.NFS.name]
